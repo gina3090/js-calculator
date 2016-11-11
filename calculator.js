@@ -18,14 +18,16 @@ function calculatorModule() {
   calculator.load = 
   function setTotal(x){
     calculator._total = x;
-    return _total;
+    return calculator._total;
   };
 
   /**
    * Return the value of `total`
    * @return { Number }
    */
-
+  function valueOfTotal(x){
+    return calculator._total;
+  }
 
   /**
    * Sums the value passed in with `total`
