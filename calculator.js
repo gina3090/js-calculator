@@ -68,7 +68,9 @@ function calculatorModule() {
    * Return the value stored at `memory`
    * @return { Number }
    */
-  
+  calculator.recallMemory = function () {
+    return memory;
+  };
 
   /**
    * Stores the value of `total` to `memory`
