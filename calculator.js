@@ -41,7 +41,10 @@ function calculatorModule() {
    * Subtracts the value passed in from `total`
    * @param  { Number } x
    */
-  
+  calculator.subtract = function (x) {
+    total = total - x;
+    return total;
+  };
 
   /**
    * Multiplies the value by `total`
