@@ -15,7 +15,10 @@ function calculatorModule() {
    * @param  { Number } x
    * @return { Number }    current total
    */
-  
+  calculator.load = function (x) {
+    total = x;
+    return total;
+  };
 
   /**
    * Return the value of `total`
