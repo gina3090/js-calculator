@@ -82,7 +82,9 @@ function calculatorModule() {
   /**
    * Clear the value stored at `memory`
    */
-  
+  calculator.clearMemory = function () {
+    memory = 0;
+  };  
 
   /**
    * Validation
