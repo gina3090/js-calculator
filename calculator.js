@@ -59,7 +59,10 @@ function calculatorModule() {
    * Divides the value passing in by `total`
    * @param  { Number } x
    */
-  
+  calculator.divide = function (x) {
+    total = total / x;
+    return total;
+  };
 
   /**
    * Return the value stored at `memory`
