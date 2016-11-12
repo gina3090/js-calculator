@@ -7,69 +7,66 @@
  */
 function calculatorModule() {
   var calculator = {};
-  var _memory = 0;
-  var _total = 0;
+  var total = 0;
+  var memory = 0;
 
   /**
    * sets the `total` to the number passed in
    * @param  { Number } x
    * @return { Number }    current total
    */
-  calculator.load = 
-  function setTotal(x){
-    calculator._total = x;
-    return calculator._total;
-  };
+  
 
   /**
    * Return the value of `total`
    * @return { Number }
    */
-  function valueOfTotal(x){
-    return calculator._total;
-  }
+  
 
   /**
    * Sums the value passed in with `total`
    * @param { Number } x
    */
+  
 
-
-  /**
+/**
    * Subtracts the value passed in from `total`
    * @param  { Number } x
    */
-
+  
 
   /**
    * Multiplies the value by `total`
    * @param  { Number } x
    */
-
+  
 
   /**
    * Divides the value passing in by `total`
    * @param  { Number } x
    */
-
+  
 
   /**
    * Return the value stored at `memory`
    * @return { Number }
    */
-
+  
 
   /**
    * Stores the value of `total` to `memory`
    */
-
+  
 
   /**
    * Clear the value stored at `memory`
    */
+  
 
   /**
    * Validation
    */
+
   return calculator;
 }
+
