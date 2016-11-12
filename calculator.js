@@ -50,7 +50,10 @@ function calculatorModule() {
    * Multiplies the value by `total`
    * @param  { Number } x
    */
-  
+  calculator.multiply = function (x) {
+    total = total * x;
+    return total;
+  };
 
   /**
    * Divides the value passing in by `total`
